@@ -2,15 +2,18 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
+//vueRouter를 사용한다고 명시
 Vue.use(VueRouter)
 
 const routes = [
-  {
+  { 
+    //localhost:8080 상태일때
     path: '/',
     name: 'Home',
     component: Home
   },
-  {
+  { 
+    //localhost:8080/about 상태일때 화면 전환
     path: '/about',
     name: 'About',
     // route level code-splitting

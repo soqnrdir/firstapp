@@ -8,5 +8,6 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
+  //처음 페이지를 지정함
   render: h => h(App)
 }).$mount('#app')
